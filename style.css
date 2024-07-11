@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(98, 157, 159);
+    position: relative;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(174, 170, 170);
+    position: fixed;
+    z-index: 1000;
+}
+
+.company-logo{
+    width: 200px;
+    height: 50px;
+
+
+}
+.company-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.mid ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.mid ul li{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.mid ul li:hover{
+    border-bottom: 1px solid black;
+}
+.search{
+    display: flex;
+    width: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+}
+.src-icon{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.search input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+.system{
+    display: flex;
+    margin-right: 100px;
+    gap: 35px;
+}
+.profile{
+    text-align: center;
+}
+.bag{
+    text-align: center;
+}
+
+.hero-section{
+    display: flex;
+    padding: 6vw;
+}
+.content{
+    width: 25%;
+    margin-top: 70px;
+}
+.content h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    
+}
+.content p{
+    font-size:15px;
+    padding:15px 0;
+    color: rgb(119, 88, 88);
+   
+}
+
+.models-clothes1{
+    height: 500px;
+    width: 400px;
+    margin-left: 10%;
+    transition: 1.22s ease-in-out;
+
+}
+.models-clothes1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 3px 4px 3px 4px rgba(74, 73, 76, 0.5);
+}
+
+.models-clothes2{
+    height: 450px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+    transition: 1.22s ease-in-out;
+
+}
+.models-clothes2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    box-shadow: 3px 4px 3px 4px rgba(74, 73, 76, 0.5);
+}
+.hero-section button{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: 1.22s ease-in-out;
+    
+}
+.hero-section button:hover{
+    background-color: rgb(54, 53, 53);
+    color: rgb(143, 117, 117);
+}
+.models-clothes1 p, .models-clothes2 p{
+    color: rgb(82, 66, 66);
+    font-size: 13px;
+    padding: 2px 5px;
+}
+.models-clothes1:hover{
+    box-shadow: 3px 4px 3px 4px rgba(22, 21, 21, 0.5);
+}
+.models-clothes2:hover{
+    box-shadow: 3px 4px 3px 4px rgba(22, 21, 21, 0.5);
+}
+
+
+.new-lunch{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 100px;
+    
+
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    
+
+}
+.heading h2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading p{
+    margin-top: 15px;
+    color: rgb(112, 107, 107);
+}
+.trend{
+    margin-top: 2%;
+}
+.trend ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 5px;
+}
+.trend ul li{
+    width: 20%;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.trend ul li:nth-child(1){
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+.trend ul li:nth-child(2){
+    border-bottom: 2px solid rgb(137, 132, 132);
+    text-align: center;
+}
+.trend ul li:nth-child(3){
+    border-bottom: 2px solid rgb(98, 94, 94);
+    text-align: center;
+}
+
+
+.shop-container{
+
+
+    display: flex;
+    justify-content: space-around;
+
+   margin-top: 20px;
+  
+   padding: 0 10px;
+
+}
+
+.shop-box{
+    height: 200px;
+    width: 200px;
+
+
+}
+.shop-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.btn-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+.btn-container button{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 3vw;
+    transition: 1.22s ease-in-out;
+}
+.btn-container button:hover{
+    background-color: rgb(54, 53, 53);
+    color: rgb(143, 117, 117);
+}
+
+
+ .shop-box h2{
+    font-size: 15px; 
+    text-align: center;
+    
+ }
+ 
+ .border{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: crimson;
+ }
+ .border h1{
+  font-size: 50px;
+  color: white;
+ }
+
+ 
+.countdouwn-timer{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/portrait-cute-happy-girl-kissing-her-credit-card-after-buying-gifts-holding-shopping-bags-standin_1258-125577.jpg?t=st=1720702683~exp=1720706283~hmac=15278d979c01e437f2fe90a17452604a79b8ce371b90b3ccd23fc80b0a597788&w=1380);
+    background-position: center;
+    background-size: cover;
+}
+.deals-content{
+    margin-left: 10%;
+}
+.deals-content h3{
+    color:rgb(48, 46, 46);
+    font-size: 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2vw 0;
+}
+.deals-content p{
+    color: rgb(130, 121, 121);
+    font-size: 16px;
+}
+.timer-box{
+    display: flex;
+    gap: 3vw;
+    margin: 2vw 0;
+    text-align: center;
+}
+.Timer{
+    padding: 10px;
+    border: 1px solid rgb(102, 98, 98);
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.product-btn button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    margin-top: 3vw;
+    transition: 2s ease-in-out;
+
+}
+.product-btn button:hover{
+    background-color: rgb(57, 56, 56);
+    color: rgb(201, 198, 198);
+}
+
+
+.social-media{
+    height:100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.insta-story{
+    padding: 3vw;
+}
+.insta-story h3{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.stories{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 3vw;
+   
+}
+.story{
+    height: 50vh;
+    width: 20vw;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.advantege{
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+    margin-bottom: 3vw;
+}
+.adv-content{
+    font-size: 1.1vw;
+}
+
+.footer-container{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(1, 1, 1);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4vw;
+}
+
+.contact-us h1{
+    font-size: 3vw;
+    color: white;
+}
+.contact-link{
+    display: flex;
+   align-items: center;
+    gap: 5px;
+    color: white;
+}
+.contact-link p{
+    padding: 5px 0;
+}
+.infomation h4{
+    font-size: 1.5vw;
+    color: white;
+}
+.infomation ul {
+ list-style: none;
+ padding: 8px 0;
+}
+.infomation ul li{
+    padding: 5px 0;
+    font-size: 16px;
+    
+    color: white;
+}
+.subscribe h4{
+    font-size: 1.5vw;
+    color: white;
+}
+.subscribe p{
+    color: white;
+    font-size: 1vw;
+    padding: 6px 0;
+}
+.email-section{
+    border: 1px solid rgb(194, 188, 188);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    
+} 
+.email-section i:nth-child(1){
+    margin-left:20px;
+}
+.email-section i:nth-child(3){
+    margin-right:20px;
+}
+.email-section i{
+    font-size: 20px;
+    color: white;
+   
+}
+.email-section input{
+    color: white;
+    font-weight: 550;
+    height: 40px;
+    background-color: black;
+    border: none;
+    outline: none;
+
+}
+
